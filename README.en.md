@@ -12,7 +12,7 @@ Developed by [@hexdm09](https://github.com/hexdm09).
 
 ### Firefox 140+
 
-1. [Download the Firefox ZIP](downloads/gta6-filter-firefox.zip?raw=true).
+1. [Download the Firefox ZIP](https://github.com/hexdm09/Gta-6-filter/releases/latest/download/gta6-filter-firefox.zip).
 2. Enter `about:debugging#/runtime/this-firefox` in the Firefox address bar.
 3. Select **Load Temporary Add-on** and choose the downloaded ZIP.
 
@@ -20,7 +20,7 @@ The temporary add-on stays active until Firefox restarts. Permanent installation
 
 ### Chrome and Edge
 
-1. [Download the Chrome and Edge ZIP](downloads/gta6-filter-chromium.zip?raw=true) and extract it.
+1. [Download the Chrome and Edge ZIP](https://github.com/hexdm09/Gta-6-filter/releases/latest/download/gta6-filter-chromium.zip) and extract it.
 2. Open `chrome://extensions` in Chrome or `edge://extensions` in Edge and enable **Developer mode**.
 3. Select **Load unpacked** and choose the folder containing `manifest.json`.
 

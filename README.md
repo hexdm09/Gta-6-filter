@@ -12,7 +12,7 @@ GTA6 Filter скрывает явно связанный с GTA 6 контент
 
 ### Firefox 140+
 
-1. [Скачайте ZIP для Firefox](downloads/gta6-filter-firefox.zip?raw=true).
+1. [Скачайте ZIP для Firefox](https://github.com/hexdm09/Gta-6-filter/releases/latest/download/gta6-filter-firefox.zip).
 2. Введите `about:debugging#/runtime/this-firefox` в адресной строке Firefox.
 3. Нажмите **Загрузить временное дополнение** и выберите скачанный ZIP целиком.
 
@@ -20,7 +20,7 @@ GTA6 Filter скрывает явно связанный с GTA 6 контент
 
 ### Chrome и Edge
 
-1. [Скачайте ZIP для Chrome и Edge](downloads/gta6-filter-chromium.zip?raw=true) и распакуйте его.
+1. [Скачайте ZIP для Chrome и Edge](https://github.com/hexdm09/Gta-6-filter/releases/latest/download/gta6-filter-chromium.zip) и распакуйте его.
 2. Откройте `chrome://extensions` в Chrome или `edge://extensions` в Edge. Включите **Режим разработчика**.
 3. Нажмите **Загрузить распакованное расширение** и выберите папку с `manifest.json`.
 
