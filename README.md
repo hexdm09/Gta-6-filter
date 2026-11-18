@@ -2,32 +2,32 @@
 
 ![afraid of spoilers? this extension is for you](docs/banner.png)
 
-[English](README.en.md)
+[Русский](README.ru.md)
 
-GTA6 Filter скрывает явно связанный с GTA 6 контент в настольных Chrome, Edge и Firefox. Фильтр работает на YouTube, Reddit и X, в том числе в лентах, поиске и на прямых страницах видео и постов.
+GTA6 Filter hides content explicitly related to GTA 6 in desktop Chrome, Edge, and Firefox. It covers YouTube, Reddit, and X feeds, searches, and individual posts and videos.
 
-Автор проекта — [@hexdm09](https://github.com/hexdm09).
+Developed by [@hexdm09](https://github.com/hexdm09).
 
-## Установка
+## Installation
 
 ### Firefox 140+
 
-1. [Скачайте ZIP для Firefox](https://github.com/hexdm09/Gta-6-filter/releases/latest/download/gta6-filter-firefox.zip).
-2. Введите `about:debugging#/runtime/this-firefox` в адресной строке Firefox.
-3. Нажмите **Загрузить временное дополнение** и выберите скачанный ZIP целиком.
+1. [Download the Firefox ZIP](https://github.com/hexdm09/Gta-6-filter/releases/latest/download/gta6-filter-firefox.zip).
+2. Enter `about:debugging#/runtime/this-firefox` in the Firefox address bar.
+3. Select **Load Temporary Add-on** and choose the downloaded ZIP.
 
-Временное дополнение работает до перезапуска Firefox. Для постоянной установки нужна сборка с подписью Mozilla.
+The temporary add-on stays active until Firefox restarts. Permanent installation requires a Mozilla-signed build.
 
-### Chrome и Edge
+### Chrome and Edge
 
-1. [Скачайте ZIP для Chrome и Edge](https://github.com/hexdm09/Gta-6-filter/releases/latest/download/gta6-filter-chromium.zip) и распакуйте его.
-2. Откройте `chrome://extensions` в Chrome или `edge://extensions` в Edge. Включите **Режим разработчика**.
-3. Нажмите **Загрузить распакованное расширение** и выберите папку с `manifest.json`.
+1. [Download the Chrome and Edge ZIP](https://github.com/hexdm09/Gta-6-filter/releases/latest/download/gta6-filter-chromium.zip) and extract it.
+2. Open `chrome://extensions` in Chrome or `edge://extensions` in Edge and enable **Developer mode**.
+3. Select **Load unpacked** and choose the folder containing `manifest.json`.
 
-После установки обновите открытые вкладки YouTube, Reddit и X. Настройки доступны через иконку GTA6 Filter на панели расширений.
+Refresh any open YouTube, Reddit, or X tabs after installing. Open GTA6 Filter from the extensions toolbar to change settings.
 
-## Защита
+## How protection works
 
-Расширение закрывает запись целиком, если её название, текст, доступные подписи, тег или тематическое сообщество указывают на GTA 6. Это включает обычные новости и трейлеры. **Показать один раз** открывает запись до обновления страницы или перехода к другой записи. Через настройки можно выключить защиту на отдельной площадке и добавить свои слова и фразы, по одной на строку.
+The extension covers the entire item when it detects GTA 6 in the title, text, available media labels, tags, or a dedicated community. This includes ordinary news and trailers. **Show once** reveals an item until you refresh or navigate to another item. Settings include a switch for each platform and a list of extra words or phrases, one per line.
 
-При открытии прямой ссылки страница закрыта, пока фильтр проверяет запись. Если данных мало, появляется кнопка ручного показа. Смена разметки сайта, картинки без подписей, звук и косвенные намёки могут обходить правила распознавания. Настройки и обработка публикаций остаются на устройстве.
+Direct links are covered while the extension checks the item. If it cannot check the item, it offers a manual reveal. Layout changes, pictures without labels, audio, and indirect references can escape detection. Settings and page processing stay on your device.
