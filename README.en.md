@@ -31,18 +31,3 @@ Refresh any open YouTube, Reddit, or X tabs after installing. Open GTA6 Filter f
 The extension covers the entire item when it detects GTA 6 in the title, text, available media labels, tags, or a dedicated community. This includes ordinary news and trailers. **Show once** reveals an item until you refresh or navigate to another item. Settings include a switch for each platform and a list of extra words or phrases, one per line.
 
 Direct links are covered while the extension checks the item. If it cannot check the item, it offers a manual reveal. Layout changes, pictures without labels, audio, and indirect references can escape detection. Settings and page processing stay on your device.
-
-## Build from source
-
-Use Node.js 24 or newer, npm, and Python 3 to create the archives.
-
-```sh
-npm ci
-npm run check
-npm test
-npx playwright install chromium
-npm run test:browser
-npm run package
-```
-
-Packaging creates `dist/gta6-filter-chromium.zip` and `dist/gta6-filter-firefox.zip`. You can also load the unpacked builds from `dist/chromium` and `dist/firefox`.
