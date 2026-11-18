@@ -1,0 +1,41 @@
+{
+  "appName": {
+    "message": "GTA6 Filter"
+  },
+  "appDescription": {
+    "message": "隱藏 YouTube、Reddit 和 X 上與 GTA 6 相關的內容。"
+  },
+  "hidden": {
+    "message": "已隱藏 GTA 6 內容"
+  },
+  "pending": {
+    "message": "正在檢查這則內容…"
+  },
+  "unverified": {
+    "message": "無法檢查這則內容。"
+  },
+  "reveal": {
+    "message": "僅顯示一次"
+  },
+  "protection": {
+    "message": "保護"
+  },
+  "platforms": {
+    "message": "平台"
+  },
+  "terms": {
+    "message": "額外字詞和片語"
+  },
+  "termsHint": {
+    "message": "每行輸入一個片語。"
+  },
+  "save": {
+    "message": "儲存片語"
+  },
+  "saved": {
+    "message": "已儲存片語。"
+  },
+  "storageError": {
+    "message": "無法存取設定，請再試一次。"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "appName": {
+    "message": "GTA6 Filter"
+  },
+  "appDescription": {
+    "message": "Masque les contenus sur GTA 6 sur YouTube, Reddit et X."
+  },
+  "hidden": {
+    "message": "Contenu GTA 6 masqué"
+  },
+  "pending": {
+    "message": "Vérification de la publication…"
+  },
+  "unverified": {
+    "message": "Impossible de vérifier cette publication."
+  },
+  "reveal": {
+    "message": "Afficher une fois"
+  },
+  "protection": {
+    "message": "Protection"
+  },
+  "platforms": {
+    "message": "Plateformes"
+  },
+  "terms": {
+    "message": "Mots et expressions supplémentaires"
+  },
+  "termsHint": {
+    "message": "Saisissez une expression par ligne."
+  },
+  "save": {
+    "message": "Enregistrer les expressions"
+  },
+  "saved": {
+    "message": "Expressions enregistrées."
+  },
+  "storageError": {
+    "message": "Impossible d’accéder aux paramètres. Réessayez."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "appName": {
+    "message": "GTA6 Filter"
+  },
+  "appDescription": {
+    "message": "YouTube, Reddit ve X’te GTA 6 içeriklerini gizler."
+  },
+  "hidden": {
+    "message": "GTA 6 içeriği gizlendi"
+  },
+  "pending": {
+    "message": "Gönderi kontrol ediliyor…"
+  },
+  "unverified": {
+    "message": "Bu gönderi kontrol edilemedi."
+  },
+  "reveal": {
+    "message": "Bir kez göster"
+  },
+  "protection": {
+    "message": "Koruma"
+  },
+  "platforms": {
+    "message": "Platformlar"
+  },
+  "terms": {
+    "message": "Ek kelimeler ve ifadeler"
+  },
+  "termsHint": {
+    "message": "Her satıra bir ifade girin."
+  },
+  "save": {
+    "message": "İfadeleri kaydet"
+  },
+  "saved": {
+    "message": "İfadeler kaydedildi."
+  },
+  "storageError": {
+    "message": "Ayarlara erişilemedi. Tekrar deneyin."
+  }
+}

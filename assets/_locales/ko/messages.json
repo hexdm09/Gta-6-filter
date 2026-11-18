@@ -1,0 +1,41 @@
+{
+  "appName": {
+    "message": "GTA6 Filter"
+  },
+  "appDescription": {
+    "message": "YouTube, Reddit, X에서 GTA 6 관련 콘텐츠를 숨깁니다."
+  },
+  "hidden": {
+    "message": "GTA 6 콘텐츠를 숨겼습니다"
+  },
+  "pending": {
+    "message": "게시물을 확인하는 중…"
+  },
+  "unverified": {
+    "message": "이 게시물을 확인할 수 없습니다."
+  },
+  "reveal": {
+    "message": "한 번만 보기"
+  },
+  "protection": {
+    "message": "보호"
+  },
+  "platforms": {
+    "message": "플랫폼"
+  },
+  "terms": {
+    "message": "추가 단어 및 문구"
+  },
+  "termsHint": {
+    "message": "한 줄에 문구 하나씩 입력하세요."
+  },
+  "save": {
+    "message": "문구 저장"
+  },
+  "saved": {
+    "message": "문구를 저장했습니다."
+  },
+  "storageError": {
+    "message": "설정에 접근할 수 없습니다. 다시 시도하세요."
+  }
+}

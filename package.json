@@ -1,0 +1,23 @@
+{
+  "name": "gta6-filter",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "tsc --noEmit",
+    "test": "node --test tests/matcher.test.mjs",
+    "test:browser": "npm run build && playwright test",
+    "package": "npm run build && python3 scripts/package.py"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.0",
+    "@types/chrome": "^0.1.0",
+    "@types/node": "^24.0.0",
+    "esbuild": "^0.27.0",
+    "typescript": "^5.9.3"
+  }
+}

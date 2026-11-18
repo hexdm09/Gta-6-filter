@@ -1,0 +1,41 @@
+{
+  "appName": {
+    "message": "GTA6 Filter"
+  },
+  "appDescription": {
+    "message": "Скрывает контент о GTA 6 на YouTube, Reddit и X."
+  },
+  "hidden": {
+    "message": "Контент о GTA 6 скрыт"
+  },
+  "pending": {
+    "message": "Проверяем публикацию…"
+  },
+  "unverified": {
+    "message": "Не удалось проверить публикацию."
+  },
+  "reveal": {
+    "message": "Показать один раз"
+  },
+  "protection": {
+    "message": "Защита"
+  },
+  "platforms": {
+    "message": "Площадки"
+  },
+  "terms": {
+    "message": "Дополнительные слова и фразы"
+  },
+  "termsHint": {
+    "message": "Вводите по одной фразе на строку."
+  },
+  "save": {
+    "message": "Сохранить фразы"
+  },
+  "saved": {
+    "message": "Фразы сохранены."
+  },
+  "storageError": {
+    "message": "Не удалось открыть или сохранить настройки. Попробуйте ещё раз."
+  }
+}

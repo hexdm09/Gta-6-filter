@@ -1,0 +1,41 @@
+{
+  "appName": {
+    "message": "GTA6 Filter"
+  },
+  "appDescription": {
+    "message": "YouTube, Reddit और X पर GTA 6 की सामग्री छिपाएँ।"
+  },
+  "hidden": {
+    "message": "GTA 6 की सामग्री छिपाई गई"
+  },
+  "pending": {
+    "message": "पोस्ट की जाँच हो रही है…"
+  },
+  "unverified": {
+    "message": "इस पोस्ट की जाँच नहीं हो सकी।"
+  },
+  "reveal": {
+    "message": "एक बार दिखाएँ"
+  },
+  "protection": {
+    "message": "सुरक्षा"
+  },
+  "platforms": {
+    "message": "प्लैटफ़ॉर्म"
+  },
+  "terms": {
+    "message": "अतिरिक्त शब्द और वाक्यांश"
+  },
+  "termsHint": {
+    "message": "हर पंक्ति में एक वाक्यांश लिखें।"
+  },
+  "save": {
+    "message": "वाक्यांश सहेजें"
+  },
+  "saved": {
+    "message": "वाक्यांश सहेज दिए गए।"
+  },
+  "storageError": {
+    "message": "सेटिंग नहीं खोली या सहेजी जा सकीं। दोबारा कोशिश करें।"
+  }
+}

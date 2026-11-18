@@ -1,0 +1,41 @@
+{
+  "appName": {
+    "message": "GTA6 Filter"
+  },
+  "appDescription": {
+    "message": "Blendet Inhalte zu GTA 6 auf YouTube, Reddit und X aus."
+  },
+  "hidden": {
+    "message": "GTA-6-Inhalt ausgeblendet"
+  },
+  "pending": {
+    "message": "Beitrag wird geprüft…"
+  },
+  "unverified": {
+    "message": "Dieser Beitrag konnte nicht geprüft werden."
+  },
+  "reveal": {
+    "message": "Einmal anzeigen"
+  },
+  "protection": {
+    "message": "Schutz"
+  },
+  "platforms": {
+    "message": "Plattformen"
+  },
+  "terms": {
+    "message": "Zusätzliche Wörter und Ausdrücke"
+  },
+  "termsHint": {
+    "message": "Pro Zeile einen Ausdruck eingeben."
+  },
+  "save": {
+    "message": "Ausdrücke speichern"
+  },
+  "saved": {
+    "message": "Ausdrücke gespeichert."
+  },
+  "storageError": {
+    "message": "Auf die Einstellungen konnte nicht zugegriffen werden. Bitte erneut versuchen."
+  }
+}

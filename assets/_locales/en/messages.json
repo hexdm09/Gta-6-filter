@@ -1,0 +1,41 @@
+{
+  "appName": {
+    "message": "GTA6 Filter"
+  },
+  "appDescription": {
+    "message": "Hide GTA 6 content on YouTube, Reddit and X."
+  },
+  "hidden": {
+    "message": "GTA 6 content hidden"
+  },
+  "pending": {
+    "message": "Checking this item…"
+  },
+  "unverified": {
+    "message": "This item couldn't be checked."
+  },
+  "reveal": {
+    "message": "Show once"
+  },
+  "protection": {
+    "message": "Protection"
+  },
+  "platforms": {
+    "message": "Platforms"
+  },
+  "terms": {
+    "message": "Extra words and phrases"
+  },
+  "termsHint": {
+    "message": "Enter one phrase per line."
+  },
+  "save": {
+    "message": "Save phrases"
+  },
+  "saved": {
+    "message": "Phrases saved."
+  },
+  "storageError": {
+    "message": "Settings could not be accessed. Try again."
+  }
+}

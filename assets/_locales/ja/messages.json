@@ -1,0 +1,41 @@
+{
+  "appName": {
+    "message": "GTA6 Filter"
+  },
+  "appDescription": {
+    "message": "YouTube、Reddit、XでGTA 6に関するコンテンツを非表示にします。"
+  },
+  "hidden": {
+    "message": "GTA 6のコンテンツを非表示にしました"
+  },
+  "pending": {
+    "message": "コンテンツを確認しています…"
+  },
+  "unverified": {
+    "message": "このコンテンツを確認できませんでした。"
+  },
+  "reveal": {
+    "message": "一度だけ表示"
+  },
+  "protection": {
+    "message": "保護"
+  },
+  "platforms": {
+    "message": "対象サービス"
+  },
+  "terms": {
+    "message": "追加のキーワードやフレーズ"
+  },
+  "termsHint": {
+    "message": "1行に1つのフレーズを入力してください。"
+  },
+  "save": {
+    "message": "フレーズを保存"
+  },
+  "saved": {
+    "message": "フレーズを保存しました。"
+  },
+  "storageError": {
+    "message": "設定にアクセスできませんでした。もう一度お試しください。"
+  }
+}

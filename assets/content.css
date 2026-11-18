@@ -1,0 +1,106 @@
+:root[data-gta6f-direct]:not([data-gta6f-off]) body > :not([data-gta6f-ui="direct"]),
+:root[data-gta6f-direct]:not([data-gta6f-off]) body > :not([data-gta6f-ui="direct"]) * {
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+:root[data-gta6f-direct]:not([data-gta6f-off]) body > :not([data-gta6f-ui="direct"]) {
+  opacity: 0 !important;
+}
+
+[data-gta6f-ui] {
+  --gta6f-panel: #fff1f5;
+  --gta6f-text: #351a3a;
+  --gta6f-line: #e8b8ce;
+  --gta6f-action: #822755;
+  --gta6f-action-hover: #68204c;
+  --gta6f-action-text: #fff7f4;
+  color-scheme: light dark;
+  box-sizing: border-box;
+  font: 500 14px/1.5 system-ui, sans-serif;
+  color: var(--gta6f-text);
+  background: var(--gta6f-panel);
+  text-align: start;
+}
+
+[data-gta6f-ui="card"] {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin: 4px 8px;
+  padding: 12px 14px;
+  border: 1px solid var(--gta6f-line);
+  border-radius: 10px;
+}
+
+[data-gta6f-ui="direct"] {
+  position: fixed;
+  inset: 0;
+  z-index: 2147483647;
+  display: grid;
+  gap: 12px;
+  align-content: center;
+  justify-items: center;
+  padding: 24px;
+  text-align: center;
+  font-size: 18px;
+  background: radial-gradient(ellipse at 100% 100%, #a54462, #5d235a 46%, #25132f 83%);
+  color: #fff7f3;
+}
+
+[data-gta6f-ui] p {
+  margin: 0;
+}
+
+[data-gta6f-ui] button {
+  font: 600 14px/1.2 system-ui, sans-serif;
+  color: var(--gta6f-action-text);
+  background: var(--gta6f-action);
+  border: 1px solid transparent;
+  border-radius: 7px;
+  cursor: pointer;
+  padding: 8px 12px;
+}
+
+[data-gta6f-ui] button:hover {
+  background: var(--gta6f-action-hover);
+}
+
+[data-gta6f-ui] button:focus-visible {
+  outline: 2px solid var(--gta6f-action);
+  outline-offset: 2px;
+}
+
+[data-gta6f-ui] button[hidden] {
+  display: none !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  [data-gta6f-ui] {
+    --gta6f-panel: #302038;
+    --gta6f-text: #fff2f7;
+    --gta6f-line: #6d4967;
+    --gta6f-action: #ffb1cc;
+    --gta6f-action-hover: #ffc8da;
+    --gta6f-action-text: #361637;
+  }
+}
+
+[data-gta6f-ui="direct"] {
+  --gta6f-action: #ffb498;
+  --gta6f-action-hover: #ffc6b4;
+  --gta6f-action-text: #361637;
+}
+
+@media (forced-colors: active) {
+  [data-gta6f-ui="direct"] {
+    background: Canvas;
+    color: CanvasText;
+  }
+
+  [data-gta6f-ui] button {
+    border-color: ButtonText;
+  }
+}
